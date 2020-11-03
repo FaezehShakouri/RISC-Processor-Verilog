@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Uni/Term 7/Architecture Lab/HW1/Codes/RISC_Processor/Mux_2_To_1.xst" -ofn "D:/Uni/Term 7/Architecture Lab/HW1/Codes/RISC_Processor/Mux_2_To_1.syr" 
+xst -intstyle ise -ifn "D:/Uni/Term 7/Architecture Lab/HW1/Codes/RISC_Processor/Mux_2_To_1.xst" -ofn "D:/Uni/Term 7/Architecture Lab/HW1/Codes/RISC_Processor/Mux_2_To_1.syr" 

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Uni/Term 7/Architecture Lab/HW1/Codes/RISC_Processor/Instruction_Memory.xst" -ofn "D:/Uni/Term 7/Architecture Lab/HW1/Codes/RISC_Processor/Instruction_Memory.syr" 
+xst -intstyle ise -ifn "D:/Uni/Term 7/Architecture Lab/HW1/Codes/RISC_Processor/Instruction_Memory.xst" -ofn "D:/Uni/Term 7/Architecture Lab/HW1/Codes/RISC_Processor/Instruction_Memory.syr" 

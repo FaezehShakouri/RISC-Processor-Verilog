@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/Uni/Term 7/Architecture Lab/HW1/Codes/RISC_Processor/Instruction_Memory_Test_isim_beh.exe" -prj "D:/Uni/Term 7/Architecture Lab/HW1/Codes/RISC_Processor/Instruction_Memory_Test_beh.prj" "work.Instruction_Memory_Test" "work.glbl" 
