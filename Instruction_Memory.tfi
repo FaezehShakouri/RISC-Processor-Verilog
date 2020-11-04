@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+Instruction_Memory instance_name (
+    .addr(addr), 
+    .clk(clk), 
+    .dataLine(dataLine)
+    );
+
+

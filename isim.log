@@ -1,5 +1,5 @@
 ISim log file
-Running: D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\Instruction_Memory_Test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Instruction_Memory_Test_isim_beh.wdb 
+Running: D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\Instr_Fetch_Test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Instr_Fetch_Test_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
 Time resolution is 1 ps

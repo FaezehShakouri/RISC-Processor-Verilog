@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+PC instance_name (
+    .nextInstAddr(nextInstAddr), 
+    .clk(clk), 
+    .hit(hit), 
+    .instAddrResult(instAddrResult)
+    );
+
+

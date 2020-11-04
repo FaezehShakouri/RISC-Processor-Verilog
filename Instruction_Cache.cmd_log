@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj RISC_Processor -o "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Instruction_Cache.tfi" -lib work "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor//Instruction_Cache.v" -module Instruction_Cache -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
