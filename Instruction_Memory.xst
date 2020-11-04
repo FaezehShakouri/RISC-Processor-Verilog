@@ -1,9 +1,6 @@
-set -tmpdir "xst/projnav.tmp"
-set -xsthdpdir "xst"
-run
--ifn Instruction_Memory.prj
--ofn Instruction_Memory
--ofmt NGC
+set -tmpdir "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/xst/projnav.tmp"
+set -xsthdpdir "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/xst"
+run -compileonly yes
 -p xc7a100t-3-csg324
 -top Instruction_Memory
 -opt_mode Speed
@@ -50,3 +47,4 @@ run
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
+-ifn Instruction_Memory.prj

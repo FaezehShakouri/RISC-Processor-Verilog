@@ -5,17 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\Uni\Term 7\Architecture Lab\HW1\Codes\RISC_Processor\Instruction_Memory.v" Line 84: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="91" delta="new" >"D:\Uni\Term 7\Architecture Lab\HW1\Codes\RISC_Processor\Instruction_Memory.v" Line 107: Signal &lt;<arg fmt="%s" index="1">counter</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="1401" delta="new" >"D:\Uni\Term 7\Architecture Lab\HW1\Codes\RISC_Processor\Instruction_Memory.v" Line 77: Signal <arg fmt="%s" index="1">reset</arg> in unit <arg fmt="%s" index="2">Instruction_Memory</arg> is connected to following multiple drivers:
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"D:\Uni\Term 7\Architecture Lab\HW1\Codes\RISC_Processor\Instruction_Memory.v" Line 22: Empty module &lt;<arg fmt="%s" index="1">Instruction_Memory</arg>&gt; remains a black box.
-</msg>
-
 </messages>
 
