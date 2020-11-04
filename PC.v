@@ -19,9 +19,14 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module PC(nextInstAddr, clk, reset, en, instAddrResult);
+module PC(
+	nextInstAddr,
+	clk, 
+	hit, 
+	instAddrResult
+	 );
 	
-	input clk, reset, en;
+	input clk, hit;
 	input [15:0] nextInstAddr;
 	
 	output reg [15:0] instAddrResult;
@@ -31,15 +36,10 @@ module PC(nextInstAddr, clk, reset, en, instAddrResult);
 		instAddrResult = 16'h0000;
 	end
 	
-	always @(posedge clk) 
+	always @(negedge clk) 
 	begin
-		if (reset)
-			instAddrResult = 16'h0000;
-		else 
-		begin
-			if (en)
-				instAddrResult = nextInstAddr;
-		end
+		if (hit)
+			instAddrResult = nextInstAddr;
 	end
 	
 endmodule
