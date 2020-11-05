@@ -71,7 +71,7 @@ module Instruction_Cache(
 		begin
 			instruction_out = 16'bx;
 			hit = 0;
-			
+			/*
 			if (counter == 5)
 			begin 
 				cache_mem[addr[5:3]][63:0]  <= dataLine;
@@ -80,9 +80,18 @@ module Instruction_Cache(
 				counter <= 0;
 			end
 			counter = counter + 1;
+			*/
 		end
-			
-		
+	end
+	
+	always @ (dataLine)
+	begin
+		if (dataLine !== 64'bx)
+		begin
+			cache_mem[addr[5:3]][63:0]  <= dataLine;
+			cache_mem[addr[5:3]][73:64] <= addr[15:6];
+			cache_mem[addr[5:3]][74] 	 <= 1;
+		end
 	end
 
 endmodule

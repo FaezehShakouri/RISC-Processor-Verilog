@@ -28,6 +28,43 @@ static int ng1[] = {0, 0};
 
 static void Initial_45_0(char *t0)
 {
+    char *t1;
+    char *t2;
+    char *t3;
+
+LAB0:    t1 = (t0 + 2848U);
+    t2 = *((char **)t1);
+    if (t2 == 0)
+        goto LAB2;
+
+LAB3:    goto *t2;
+
+LAB2:    xsi_set_current_line(45, ng0);
+
+LAB4:    xsi_set_current_line(46, ng0);
+    t2 = ((char*)((ng1)));
+    t3 = (t0 + 1608);
+    xsi_vlogvar_assign_value(t3, t2, 0, 0, 1);
+    xsi_set_current_line(47, ng0);
+    t2 = ((char*)((ng1)));
+    t3 = (t0 + 1768);
+    xsi_vlogvar_assign_value(t3, t2, 0, 0, 16);
+    xsi_set_current_line(48, ng0);
+    t2 = ((char*)((ng1)));
+    t3 = (t0 + 1928);
+    xsi_vlogvar_assign_value(t3, t2, 0, 0, 1);
+    xsi_set_current_line(49, ng0);
+    t2 = (t0 + 2656);
+    xsi_process_wait(t2, 20000LL);
+    *((char **)t1) = &&LAB5;
+
+LAB1:    return;
+LAB5:    goto LAB1;
+
+}
+
+static void Initial_52_1(char *t0)
+{
     char t3[8];
     char *t1;
     char *t2;
@@ -52,20 +89,20 @@ static void Initial_45_0(char *t0)
     unsigned int t22;
     char *t23;
 
-LAB0:    t1 = (t0 + 2848U);
+LAB0:    t1 = (t0 + 3096U);
     t2 = *((char **)t1);
     if (t2 == 0)
         goto LAB2;
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(45, ng0);
+LAB2:    xsi_set_current_line(52, ng0);
 
-LAB4:    xsi_set_current_line(46, ng0);
+LAB4:    xsi_set_current_line(53, ng0);
 
-LAB5:    xsi_set_current_line(46, ng0);
+LAB5:    xsi_set_current_line(53, ng0);
 
-LAB6:    xsi_set_current_line(47, ng0);
+LAB6:    xsi_set_current_line(54, ng0);
     t2 = (t0 + 1608);
     t4 = (t2 + 56U);
     t5 = *((char **)t4);
@@ -101,8 +138,8 @@ LAB11:    t21 = *((unsigned int *)t3);
     *((unsigned int *)t13) = (t22 & 1U);
     t23 = (t0 + 1608);
     xsi_vlogvar_assign_value(t23, t3, 0, 0, 1);
-    xsi_set_current_line(48, ng0);
-    t2 = (t0 + 2656);
+    xsi_set_current_line(55, ng0);
+    t2 = (t0 + 2904);
     xsi_process_wait(t2, 10000LL);
     *((char **)t1) = &&LAB13;
 
@@ -121,43 +158,6 @@ LAB12:    t17 = *((unsigned int *)t3);
 LAB13:    goto LAB5;
 
 LAB14:    goto LAB1;
-
-}
-
-static void Initial_52_1(char *t0)
-{
-    char *t1;
-    char *t2;
-    char *t3;
-
-LAB0:    t1 = (t0 + 3096U);
-    t2 = *((char **)t1);
-    if (t2 == 0)
-        goto LAB2;
-
-LAB3:    goto *t2;
-
-LAB2:    xsi_set_current_line(52, ng0);
-
-LAB4:    xsi_set_current_line(53, ng0);
-    t2 = ((char*)((ng1)));
-    t3 = (t0 + 1608);
-    xsi_vlogvar_assign_value(t3, t2, 0, 0, 1);
-    xsi_set_current_line(54, ng0);
-    t2 = ((char*)((ng1)));
-    t3 = (t0 + 1768);
-    xsi_vlogvar_assign_value(t3, t2, 0, 0, 16);
-    xsi_set_current_line(55, ng0);
-    t2 = ((char*)((ng1)));
-    t3 = (t0 + 1928);
-    xsi_vlogvar_assign_value(t3, t2, 0, 0, 1);
-    xsi_set_current_line(56, ng0);
-    t2 = (t0 + 2904);
-    xsi_process_wait(t2, 20000LL);
-    *((char **)t1) = &&LAB5;
-
-LAB1:    return;
-LAB5:    goto LAB1;
 
 }
 

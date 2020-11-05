@@ -43,18 +43,17 @@ module Instr_Fetch_Test;
 	);
 	
 	initial begin
-		forever begin
-			clk = ~clk;
-			#10;
-		end
-	end
-	
-	initial begin
 		clk = 0;
 		branch_target = 0;
 		PC_src = 0;
 		#20;
-
+	end
+	
+	initial begin
+		forever begin
+			clk = ~clk;
+			#10;
+		end
 	end
       
 endmodule
