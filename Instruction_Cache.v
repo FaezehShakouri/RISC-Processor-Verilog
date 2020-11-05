@@ -85,6 +85,7 @@ module Instruction_Cache(
 	end
 	
 	always @ (dataLine)
+	// Time overlap for dataLine from mem to cache.
 	begin
 		if (dataLine !== 64'bx)
 		begin
