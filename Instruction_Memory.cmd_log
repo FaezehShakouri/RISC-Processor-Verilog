@@ -1,3 +1,0 @@
-xst -intstyle ise -ifn "D:/Uni/Term 7/Architecture Lab/HW1/Codes/RISC_Processor/Instruction_Memory.xst" -ofn "D:/Uni/Term 7/Architecture Lab/HW1/Codes/RISC_Processor/Instruction_Memory.syr" 
-xst -intstyle ise -ifn "D:/Uni/Term 7/Architecture Lab/HW1/Codes/RISC_Processor/Instruction_Memory.xst" -ofn "D:/Uni/Term 7/Architecture Lab/HW1/Codes/RISC_Processor/Instruction_Memory.syr" 
-vhdtdtfi -lang verilog -prj RISC_Processor -o "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Instruction_Memory.tfi" -lib work "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor//Instruction_Memory.v" -module Instruction_Memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

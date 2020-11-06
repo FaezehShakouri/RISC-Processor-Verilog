@@ -1,6 +1,0 @@
-verilog work "PC.v"
-verilog work "Mux_2_To_1.v"
-verilog work "Instruction_Memory.v"
-verilog work "Instruction_Cache.v"
-verilog work "Adder.v"
-verilog work "Instr_Fetch.v"

@@ -9,13 +9,13 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Instr_Fetch (D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Instr_Fetch.v)</SelectedItem>
+         <SelectedItem>adder - Adder (D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Adder.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001b8000000020000000000000000000000000200000064ffffffff000000810000000300000002000001b80000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Instr_Fetch (D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Instr_Fetch.v)</CurrentItem>
+      <CurrentItem>adder - Adder (D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Adder.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -78,7 +78,6 @@
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
-         <ClosedNode>/Instr_Fetch_Test D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|Instr_Fetch_Test.v</ClosedNode>
          <ClosedNode>/Instruction_Memory_Test D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|Instruction_Memory_Test.v</ClosedNode>
          <ClosedNode>/Mux_2_To_1_Test D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|Mux_2_To_1_Test.v</ClosedNode>
          <ClosedNode>/Mux_2_To_1_Test D:|Uni|Term 7|Architecture Lab|HW1|Codes|RISC_Processor|Mux_2_To_1_Test.v</ClosedNode>
@@ -90,7 +89,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000160000000020000000000000000000000000200000064ffffffff000000810000000300000002000001600000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001cc000000020000000000000000000000000200000064ffffffff000000810000000300000002000001cc0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>Instr_Fetch_Test (D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Instr_Fetch_Test.v)</CurrentItem>
    </ItemView>
@@ -122,5 +121,5 @@
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <CurrentView>Implementation</CurrentView>
 </Project>
