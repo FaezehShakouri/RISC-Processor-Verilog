@@ -48,4 +48,17 @@ module Decode(clk, instruction, OpCode, read_data_1, read_data_2, sign_extended_
     .immediate(instruction[6:0]), 
     .sign_extended_immediate(sign_extended_immediate)
     );
+	 
+	Control_Unit control_unit (
+    .OpCode(OpCode), 
+    .RegDst(RegDst), 
+    .ALUSrc(ALUSrc), 
+    .MemToReg(MemToReg), 
+    .RegWrite(RegWrite), 
+    .MemRead(MemRead), 
+    .MemWrite(MemWrite), 
+    .Branch(Branch), 
+    .ALUOp(ALUOp)
+    );
+	 
 endmodule

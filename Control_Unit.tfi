@@ -4,7 +4,7 @@
 // Instantiate the module
 Control_Unit instance_name (
     .OpCode(OpCode), 
-    .RegWrite(RegWrite), 
+    .RegDst(RegDst), 
     .ALUSrc(ALUSrc), 
     .MemToReg(MemToReg), 
     .RegWrite(RegWrite), 

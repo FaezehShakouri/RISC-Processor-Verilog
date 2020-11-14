@@ -23,17 +23,19 @@ module Instr_Fetch(
 	branch_target,
 	PC_src,
 	instr_fetch_out,
-	hit_fetch_out
+	hit_fetch_out,
+	adder_out
     );
 	
 	input clk, PC_src;
 	input [15:0] branch_target;
 	output [15:0] instr_fetch_out;
 	output hit_fetch_out;
+	output [15:0] adder_out;
 	
 	wire [15:0] mux_out;
 	wire [15:0] pc_out;
-	wire [15:0] adder_out;
+	//wire [15:0] adder_out;
 	wire [63:0] data_line;
 	
 	Mux_2_To_1 mux_2_to_1 (
