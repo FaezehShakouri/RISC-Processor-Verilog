@@ -28,13 +28,14 @@ module Register_File(clk ,RegWrite, read_reg_1, read_reg_2, write_reg, write_dat
 	// Read ports
 	input [2:0] read_reg_1;
 	input [2:0] read_reg_2;
+	
 	output [15:0] read_data_1;
 	output [15:0] read_data_2;
 	
 	reg [15:0] registers [7:0];
 	
 	initial begin
-		registers[0] = 0;
+		//registers[0] = 0;
 		$readmemh("register_file.txt", registers);
 	end
 	

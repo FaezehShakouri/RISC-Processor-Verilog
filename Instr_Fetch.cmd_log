@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Instr_Fetch.xst" -ofn "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Instr_Fetch.syr" 

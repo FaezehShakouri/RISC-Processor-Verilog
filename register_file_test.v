@@ -50,10 +50,10 @@ module register_file_test;
 	
 	initial begin
 		forever begin
-			$display(read_data_1);
+			if (~clk)
+				$display(read_data_1);
 			#20;
 			clk = ~clk;
-			
 		end
 	end
 	
