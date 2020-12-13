@@ -1,0 +1,18 @@
+
+
+
+// Instantiate the module
+memory_stage instance_name (
+    .clk(clk), 
+    .address(address), 
+    .write_data(write_data), 
+    .adder_result(adder_result), 
+    .MemWrite(MemWrite), 
+    .MemRead(MemRead), 
+    .Branch(Branch), 
+    .Zero(Zero), 
+    .read_data_mem(read_data_mem), 
+    .PCSrc_out(PCSrc_out)
+    );
+
+

@@ -1,0 +1,94 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/mips_test_3_isim_beh.exe -prj D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/mips_test_3_beh.prj work.mips_test_3 work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Sign_Extend.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Register_File.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/PC.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Mux.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Instruction_Memory.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Instruction_Cache.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Control_Unit.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/ALU_Control.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/ALU.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Adder.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/write_back_stage.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/mem_wb_register.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/memory_stage.v" into library work
+WARNING:HDLCompiler:329 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/memory_stage.v" Line 50: Target <PCSrc_out> of concurrent assignment or output port connection should be a net type.
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Instr_Fetch.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/IF-ID.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/id_ex_register.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/ex_mem_register.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Execute_Stage.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Decode.v" into library work
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" into library work
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 77: <read_data_1> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 78: <rt> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 79: <RegDst_decode_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 80: <ALUOp_decode_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 118: <addr_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 119: <rt_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 120: <hit_ID_EX_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 121: <RegDst_ID_EX_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 122: <ALUOp_ID_EX_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 142: <ALU_Result_EXE_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 143: <Zero_EXE_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 144: <mux_rd_rt_EXE_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 173: <ALU_Result_EX_MEM_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 174: <mux_rd_rt_EX_MEM_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 175: <Zero_EX_MEM_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 176: <MemToReg_EX_MEM_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 192: <read_data_mem_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 193: <PCSrc_mem_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 211: <read_data_mem_MEM_WB_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 212: <mux_rd_rt_MEM_WB_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 213: <MemToReg_MEM_WB_out> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 224: <mux_wb_out> is already implicitly declared earlier.
+Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/mips_test_3.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Instr_Fetch.v" Line 53: Size mismatch in connection of port <addr_inp_2>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 58: Size mismatch in connection of port <write_data>. Formal port size is 16-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:329 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Execute_Stage.v" Line 45: Target <addr_out> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Execute_Stage.v" Line 52: Target <ALU_Op_out> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Execute_Stage.v" Line 60: Target <mux_out_alu_in> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Execute_Stage.v" Line 68: Target <ALU_Result> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Execute_Stage.v" Line 69: Target <Zero> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Execute_Stage.v" Line 77: Target <mux_rd_rt_out> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:189 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Execute_Stage.v" Line 74: Size mismatch in connection of port <input1>. Formal port size is 16-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Execute_Stage.v" Line 75: Size mismatch in connection of port <input0>. Formal port size is 16-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Execute_Stage.v" Line 77: Size mismatch in connection of port <out>. Formal port size is 16-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 152: Size mismatch in connection of port <adder_result_in>. Formal port size is 16-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:329 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/memory_stage.v" Line 50: Target <PCSrc_out> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/write_back_stage.v" Line 33: Target <mux_wb> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:189 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 220: Size mismatch in connection of port <mux_wb>. Formal port size is 16-bit while actual signal size is 3-bit.
+Completed static elaboration
+Compiling module PC
+Compiling module Adder
+Compiling module Mux
+Compiling module Instruction_Memory
+Compiling module Instruction_Cache
+Compiling module Instr_Fetch
+Compiling module IF_ID
+Compiling module Register_File
+Compiling module Sign_Extend
+Compiling module Control_Unit
+Compiling module Decode
+Compiling module id_ex_register
+Compiling module ALU_Control
+Compiling module ALU
+Compiling module Execute_Stage
+Compiling module ex_mem_register
+Compiling module memory_stage
+Compiling module mem_wb_register
+Compiling module write_back_stage
+Compiling module MIPS
+Compiling module mips_test_3
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 22 Verilog Units
+Built simulation executable D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/mips_test_3_isim_beh.exe
+Fuse Memory Usage: 29036 KB
+Fuse CPU Usage: 515 ms

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj RISC_Processor -o "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/write_back_stage.tfi" -lib work "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor//write_back_stage.v" -module write_back_stage -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

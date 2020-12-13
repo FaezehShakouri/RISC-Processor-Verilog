@@ -20,17 +20,19 @@
 //////////////////////////////////////////////////////////////////////////////////
 module Adder(
 	clk,
-	addr_inp,
+	addr_inp_1,
+	addr_inp_2,
 	addr_out
     );
 
 	input clk;
-	input [15:0] addr_inp;
+	input [15:0] addr_inp_1;
+	input [15:0] addr_inp_2;
 	output reg [15:0] addr_out;
 	
-	always @ (addr_inp)
+	always @ (addr_inp_1 || addr_inp_2)
 	begin
-		addr_out <= addr_inp + 2;
+		addr_out <= addr_inp_1 + addr_inp_2;
 	end
 	
 endmodule

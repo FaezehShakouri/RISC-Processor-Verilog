@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+write_back_stage instance_name (
+    .read_data_mem(read_data_mem), 
+    .alu_result(alu_result), 
+    .MemToReg(MemToReg), 
+    .mux_wb(mux_wb)
+    );
+
+

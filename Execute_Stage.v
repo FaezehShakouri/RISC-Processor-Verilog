@@ -18,22 +18,37 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module Execute_Stage(addr_in, read_data_1_in, read_data_2_in, sign_extended_immediate_in, rt_in, rd_in, ALU_Result, Zero);
+module Execute_Stage(addr_in, read_data_1_in, read_data_2_in, sign_extended_immediate_in, rt_in, rd_in, RegDst_in, ALUSrc_in, ALUOp_in, ALU_Result, addr_out, Zero, mux_rd_rt_out);
 
 	input [15:0] addr_in;
 	input [15:0] read_data_1_in, read_data_2_in;
 	input [15:0] sign_extended_immediate_in;
 	input [2:0] rt_in, rd_in;
+
+	// Control unit
+	input RegDst_in, ALUSrc_in;
+	input [1:0] ALUOp_in;
+	// 
 	
-	output reg [15:0] ALU_Result;
+	output reg [15:0] ALU_Result, addr_out;
 	output reg Zero;
+	output reg [2:0] mux_rd_rt_out;
 	
 	reg [2:0] ALU_Op_out;
 	reg [15:0] mux_out_alu_in;
 	
+	
+	Adder adder (
+    .clk(clk), 
+    .addr_inp_1(addr_in), 
+    .addr_inp_2(sign_extended_immediate_in << 1), 
+    .addr_out(addr_out)
+    );
+	 
+	 
 	ALU_Control alu_control (
-    .func(addr_in[15:12]), 
-    .ALUOp(2'b00), 
+    .func(sign_extended_immediate_in[15:12]), 
+    .ALUOp(ALUOp_in), ////////
     .ALUOp_out(ALU_Op_out)
     );
 	
@@ -41,7 +56,7 @@ module Execute_Stage(addr_in, read_data_1_in, read_data_2_in, sign_extended_imme
 	Mux mux_read2_sign (
     .input1(sign_extended_immediate_in), 
     .input0(read_data_2_in), 
-    .select(1), 
+    .select(ALUSrc_in), //////
     .out(mux_out_alu_in)
     );
 
@@ -55,4 +70,10 @@ module Execute_Stage(addr_in, read_data_1_in, read_data_2_in, sign_extended_imme
 	);
 
 
+	Mux mux_rt_rd (
+    .input1(rd_in), 
+    .input0(rt_in), 
+    .select(RegDst_in), 
+    .out(mux_rd_rt_out)
+    );
 endmodule

@@ -49,10 +49,11 @@ module Instr_Fetch(
 	
 	Adder adder (
     .clk(clk), 
-    .addr_inp(pc_out), 
+    .addr_inp_1(pc_out), 
+    .addr_inp_2(2), 
     .addr_out(adder_out)
     );
-
+	 
 	Mux mux_2_to_1 (
     .input1(branch_target), 
     .input0(adder_out), 
