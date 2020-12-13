@@ -2,7 +2,7 @@ set -tmpdir "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/xst/projnav.tmp"
 set -xsthdpdir "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/xst"
 run -compileonly yes
 -p xc7a100t-3-csg324
--top Instr_Fetch
+-top Decode
 -opt_mode Speed
 -opt_level 1
 -power NO
@@ -47,4 +47,4 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn Instr_Fetch.prj
+-ifn Decode.prj

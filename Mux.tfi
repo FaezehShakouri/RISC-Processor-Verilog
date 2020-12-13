@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+Mux instance_name (
+    .input1(input1), 
+    .input0(input0), 
+    .select(select), 
+    .out(out)
+    );
+
+

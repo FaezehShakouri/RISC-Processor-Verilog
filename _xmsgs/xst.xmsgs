@@ -5,5 +5,62 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 32: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 32: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 33: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 33: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 34: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 34: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 35: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 35: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 36: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 36: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 37: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 37: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 38: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 38: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 39: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 39: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 44: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 44: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1660" delta="old" >"D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\ALU_Control.v" Line 47: Procedural assignment to a non-register <arg fmt="%s" index="1">ALUOp_out</arg> is not permitted, left-hand side should be reg/integer/time/genvar
+</msg>
+
 </messages>
 

@@ -18,18 +18,16 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module Decode(clk, instruction, OpCode, read_data_1, read_data_2, sign_extended_immediate, rt, rd);
+module Decode(clk, instruction, read_data_1, read_data_2, sign_extended_immediate, rt, rd);
 	
 	input clk;
 	input [15:0] instruction;
 	
-	output [2:0] OpCode;
+	//output [2:0] OpCode;
 	output [15:0] read_data_1, read_data_2;
 	output [15:0] sign_extended_immediate;
 	output [2:0] rt, rd;
 	
-	
-	assign OpCode = instruction[15:13];
 	assign rt = instruction[9:7];
 	assign rd = instruction[6:4];
 	
@@ -50,7 +48,7 @@ module Decode(clk, instruction, OpCode, read_data_1, read_data_2, sign_extended_
     );
 	 
 	Control_Unit control_unit (
-    .OpCode(OpCode), 
+    .OpCode(instruction[15:13]), 
     .RegDst(RegDst), 
     .ALUSrc(ALUSrc), 
     .MemToReg(MemToReg), 

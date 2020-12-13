@@ -29,21 +29,16 @@ module Instr_Fetch(
 	
 	input clk, PC_src;
 	input [15:0] branch_target;
+	
 	output [15:0] instr_fetch_out;
 	output hit_fetch_out;
 	output [15:0] adder_out;
 	
 	wire [15:0] mux_out;
 	wire [15:0] pc_out;
-	//wire [15:0] adder_out;
+	//wire [15:0] tmp_adder_out;
 	wire [63:0] data_line;
 	
-	Mux_2_To_1 mux_2_to_1 (
-    .input1(branch_target), 
-    .input0(adder_out), 
-    .select(PC_src), 
-    .out(mux_out)
-    );
 	
 	PC pc (
     .nextInstAddr(mux_out), 
@@ -58,6 +53,13 @@ module Instr_Fetch(
     .addr_out(adder_out)
     );
 
+	Mux mux_2_to_1 (
+    .input1(branch_target), 
+    .input0(adder_out), 
+    .select(PC_src), 
+    .out(mux_out)
+    );
+	 
 	Instruction_Memory instruction_memory (
     .addr(pc_out), 
     .clk(clk), 
