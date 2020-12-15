@@ -29,6 +29,7 @@ module Instruction_Cache(
 	input clk;
 	input [15:0] addr;
 	input [63:0] dataLine;
+	
 	output reg [15:0] instruction_out;
 	output reg hit;
 	
@@ -71,16 +72,6 @@ module Instruction_Cache(
 		begin
 			instruction_out = 16'bx;
 			hit = 0;
-			/*
-			if (counter == 5)
-			begin 
-				cache_mem[addr[5:3]][63:0]  <= dataLine;
-				cache_mem[addr[5:3]][73:64] <= addr[15:6];
-				cache_mem[addr[5:3]][74] 	 <= 1;
-				counter <= 0;
-			end
-			counter = counter + 1;
-			*/
 		end
 	end
 	

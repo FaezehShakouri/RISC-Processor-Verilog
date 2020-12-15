@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj RISC_Processor -o "D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog/Adder_2.tfi" -lib work "D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog//Adder_2.v" -module Adder_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

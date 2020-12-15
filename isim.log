@@ -1,19 +1,22 @@
 ISim log file
-Running: D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\mips_test_3_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/mips_test_3_isim_beh.wdb 
+Running: D:\Uni\Term 7\Architecture Lab\CPU\RISC-Processor-Verilog\mips_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog/mips_test_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
-WARNING:  For instance instr_fetch_stage/adder/, width 16 of formal port addr_inp_2 is not equal to width 32 of actual constant.
-WARNING: File "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 58.  For instance uut/decode_stage/, width 16 of formal port write_data is not equal to width 3 of actual signal mux_wb_out.
-WARNING: File "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Execute_Stage.v" Line 26.  For instance execute_stage/mux_rt_rd/, width 16 of formal port input1 is not equal to width 3 of actual signal rd_in.
-WARNING: File "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Execute_Stage.v" Line 26.  For instance execute_stage/mux_rt_rd/, width 16 of formal port input0 is not equal to width 3 of actual signal rt_in.
-WARNING: File "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Execute_Stage.v" Line 35.  For instance execute_stage/mux_rt_rd/, width 16 of formal port out is not equal to width 3 of actual variable mux_rd_rt_out. 
-WARNING: File "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 152.  For instance uut/EX_MEM_Register/, width 16 of formal port adder_result_in is not equal to width 1 of actual signal adder_result_EXE_out.
-WARNING: File "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v" Line 58.  For instance uut/Write_Back_Stage/, width 16 of formal port mux_wb is not equal to width 3 of actual signal mux_wb_out.
+WARNING: File "D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog/Decode.v" Line 26.  For instance decode_stage/register_file/, width 16 of formal port write_data is not equal to width 17 of actual signal write_data.
+WARNING: File "D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog/MIPS.v" Line 100.  For instance uut/decode_stage/, width 17 of formal port write_data is not equal to width 16 of actual signal WRITE_BACK_mux_wb.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
-ERROR: In process memory_stage.vCont_50_1 
- FATAL ERROR:ISim: This application has discovered an exceptional condition from which it cannot recover. Process will terminate. To search for possible resolutions to this issue, refer to the Xilinx answer database by going to http://www.xilinx.com/support/answers/index.htm and search with keywords 'ISim' and 'FATAL ERROR'. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.
-INFO: Simulator is stopped.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

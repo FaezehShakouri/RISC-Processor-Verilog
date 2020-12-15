@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-12-03T23:45:08</DateModified>
-  <ModuleName>MIPS</ModuleName>
+  <DateModified>2020-12-15T12:25:17</DateModified>
+  <ModuleName>Instr_Fetch</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/iseconfig/Instr_Fetch.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor\</ImplementationReportsDirectory>
-  <DateInitialized>2020-12-03T23:39:10</DateInitialized>
+  <SavedFilePath>D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog/iseconfig/Instr_Fetch.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog\</ImplementationReportsDirectory>
+  <DateInitialized>2020-11-11T17:58:15</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

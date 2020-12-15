@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date:    22:57:45 12/03/2020 
+// Create Date:    16:06:53 12/14/2020 
 // Design Name: 
 // Module Name:    ALU_Control 
 // Project Name: 
@@ -25,7 +25,6 @@ module ALU_Control(func, ALUOp, ALUOp_out);
 	
 	output [2:0] ALUOp_out;
 	
-	
 	assign ALUOp_out = (ALUOp == 2'b00 & func == 4'b0000) ? 3'b000
 						  : (ALUOp == 2'b00 & func == 4'b0001) ? 3'b001
 						  : (ALUOp == 2'b00 & func == 4'b0010) ? 3'b101
@@ -38,5 +37,4 @@ module ALU_Control(func, ALUOp, ALUOp_out);
 						  : (ALUOp == 2'b10) ? 3'b111
 						  : (ALUOp == 2'b11) ? 3'b000
 												   : 3'bxxx;
-						  
 endmodule

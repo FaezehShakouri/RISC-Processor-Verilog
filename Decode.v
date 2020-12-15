@@ -18,31 +18,40 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module Decode(clk, instruction, write_data, write_register, RegWrite_out, read_data_1, read_data_2, sign_extended_immediate, rt, rd, RegDst, ALUSrc, MemToReg, RegWrite, MemRead, MemWrite, Branch, ALUOp);
+module Decode(
+	input clk,
+	input [15:0] instruction,
+	input RegWrite_from_wb,
+	input [2:0] write_reg,
+	input [15:0] write_data,
 	
-	input clk;
-	input [15:0] instruction;
-	input [15:0] write_data;
-	input [2:0] write_register;
-	input RegWrite_out;
+	output [15:0] read_data_1,
+	output [15:0] read_data_2,
+	output [15:0] sign_extended_immediate,
+	output [2:0] rt,
+	output [2:0] rd,
 	
-	//output [2:0] OpCode;
-	output [15:0] read_data_1, read_data_2;
-	output [15:0] sign_extended_immediate;
-	output [2:0] rt, rd;
-	output RegDst, ALUSrc, MemToReg, RegWrite, MemRead, MemWrite, Branch;
-	output [1:0] ALUOp;
+	output Sig_RegDst, 
+   output Sig_ALUSrc, 
+   output Sig_MemToReg, 
+   output Sig_RegWrite, 
+   output Sig_MemRead, 
+   output Sig_MemWrite, 
+   output Sig_Branch, 
+   output [1:0] Sig_ALUOp
 	
+ );
+ 
 	assign rt = instruction[9:7];
 	assign rd = instruction[6:4];
 	
 	Register_File register_file (
     .clk(clk), 
-    .RegWrite(RegWrite_out), 		
-    .read_reg_1(instruction[12:10]), 
+    .RegWrite(RegWrite_from_wb),
+    .read_reg_1(instruction[12:10]),
     .read_reg_2(instruction[9:7]), 
-    .write_reg(write_register), 		
-    .write_data(write_data), 	   
+    .write_reg(write_reg), 		// bdn byd ezafe bshe
+    .write_data(write_data), 	   // bdn byd ezafe bshe
     .read_data_1(read_data_1), 
     .read_data_2(read_data_2)
     );
@@ -54,14 +63,14 @@ module Decode(clk, instruction, write_data, write_register, RegWrite_out, read_d
 	 
 	Control_Unit control_unit (
     .OpCode(instruction[15:13]), 
-    .RegDst(RegDst), 
-    .ALUSrc(ALUSrc), 
-    .MemToReg(MemToReg), 
-    .RegWrite(RegWrite), 
-    .MemRead(MemRead), 
-    .MemWrite(MemWrite), 
-    .Branch(Branch), 
-    .ALUOp(ALUOp)
+    .RegDst(Sig_RegDst), 
+    .ALUSrc(Sig_ALUSrc), 
+    .MemToReg(Sig_MemToReg), 
+    .RegWrite(Sig_RegWrite), 
+    .MemRead(Sig_MemRead), 
+    .MemWrite(Sig_MemWrite), 
+    .Branch(Sig_Branch), 
+    .ALUOp(Sig_ALUOp)
     );
 	 
 endmodule

@@ -8,20 +8,24 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/Decode D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|Decode.v</ClosedNode>
+         <ClosedNode>/Execute D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|Execute.v</ClosedNode>
          <ClosedNode>/Instr_Fetch D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|Instr_Fetch.v</ClosedNode>
-         <ClosedNode>/MIPS D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|MIPS.v/Write_Back_Stage - write_back_stage</ClosedNode>
-         <ClosedNode>/MIPS D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|MIPS.v/decode_stage - Decode</ClosedNode>
-         <ClosedNode>/MIPS D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|MIPS.v/execute_stage - Execute_Stage</ClosedNode>
-         <ClosedNode>/MIPS D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|MIPS.v/instr_fetch_stage - Instr_Fetch</ClosedNode>
+         <ClosedNode>/MIPS D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|MIPS.v/decode_stage - Decode</ClosedNode>
+         <ClosedNode>/MIPS D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|MIPS.v/execute_stage - Execute</ClosedNode>
+         <ClosedNode>/MIPS D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|MIPS.v/instr_fetch_stage - Instr_Fetch</ClosedNode>
+         <ClosedNode>/MIPS D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|MIPS.v/memory_stage - Memory</ClosedNode>
+         <ClosedNode>/MIPS D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|MIPS.v/write_back_stage - Write_Back</ClosedNode>
+         <ClosedNode>/MIPS D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|MIPS.v</ClosedNode>
+         <ClosedNode>/Write_Back D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|Write_Back.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>MIPS (D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v)</SelectedItem>
+         <SelectedItem>MIPS (D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog/MIPS.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000193000000020000000000000000000000000200000064ffffffff000000810000000300000002000001930000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000151000000020000000000000000000000000200000064ffffffff000000810000000300000002000001510000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>MIPS (D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v)</CurrentItem>
+      <CurrentItem>MIPS (D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog/MIPS.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -37,7 +41,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016f0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013e0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -72,40 +76,56 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Check Syntax</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016f0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013e0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Check Syntax</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/Decode D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|Decode.v</ClosedNode>
+         <ClosedNode>/Instr_Fetch_Test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|Instr_Fetch_Test.v</ClosedNode>
+         <ClosedNode>/Instr_Fetch_Test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|Instr_Fetch_Test.v/uut - Instr_Fetch</ClosedNode>
          <ClosedNode>/Instr_Fetch_Test D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|Instr_Fetch_Test.v</ClosedNode>
+         <ClosedNode>/Instruction_Memory_Test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|Instruction_Memory_Test.v</ClosedNode>
          <ClosedNode>/Instruction_Memory_Test D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|Instruction_Memory_Test.v</ClosedNode>
+         <ClosedNode>/MIPS D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|MIPS.v</ClosedNode>
+         <ClosedNode>/Memory D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|Memory.v</ClosedNode>
+         <ClosedNode>/Mux_2_To_1_Test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|Mux_2_To_1_Test.v</ClosedNode>
          <ClosedNode>/Mux_2_To_1_Test D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|Mux_2_To_1_Test.v</ClosedNode>
          <ClosedNode>/Mux_2_To_1_Test D:|Uni|Term 7|Architecture Lab|HW1|Codes|RISC_Processor|Mux_2_To_1_Test.v</ClosedNode>
+         <ClosedNode>/PC_Test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|PC_Test.v</ClosedNode>
          <ClosedNode>/PC_Test D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|PC_Test.v</ClosedNode>
          <ClosedNode>/PC_Test D:|Uni|Term 7|Architecture Lab|HW1|Codes|RISC_Processor|PC_Test.v</ClosedNode>
+         <ClosedNode>/alu_control_test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|alu_control_test.v</ClosedNode>
+         <ClosedNode>/control_unit_test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|control_unit_test.v</ClosedNode>
          <ClosedNode>/control_unit_test D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|control_unit_test.v</ClosedNode>
+         <ClosedNode>/data_memory_test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|data_memory_test.v</ClosedNode>
+         <ClosedNode>/decode_test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|decode_test.v</ClosedNode>
          <ClosedNode>/decode_test D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|decode_test.v</ClosedNode>
-         <ClosedNode>/mips_test_1 D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|mips_test_1.v</ClosedNode>
-         <ClosedNode>/mips_test_2 D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|mips_test_2.v</ClosedNode>
-         <ClosedNode>/mips_test_3 D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|mips_test_3.v</ClosedNode>
+         <ClosedNode>/execute_test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|execute_test.v</ClosedNode>
+         <ClosedNode>/mips_test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|mips_test.v/uut - MIPS/decode_stage - Decode</ClosedNode>
+         <ClosedNode>/mips_test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|mips_test.v/uut - MIPS/execute_stage - Execute</ClosedNode>
+         <ClosedNode>/mips_test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|mips_test.v/uut - MIPS/instr_fetch_stage - Instr_Fetch</ClosedNode>
+         <ClosedNode>/mips_test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|mips_test.v/uut - MIPS/memory_stage - Memory</ClosedNode>
+         <ClosedNode>/mux_rt_rd_test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|mux_rt_rd_test.v</ClosedNode>
+         <ClosedNode>/register_file_test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|register_file_test.v</ClosedNode>
          <ClosedNode>/register_file_test D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|register_file_test.v</ClosedNode>
+         <ClosedNode>/sign_extend_test D:|Uni|Term 7|Architecture Lab|CPU|RISC-Processor-Verilog|sign_extend_test.v</ClosedNode>
          <ClosedNode>/sign_extend_test D:|Uni|Term 7|Architecture Lab|CPU|RISC_Processor|sign_extend_test.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>mips_test_3 (D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/mips_test_3.v)</SelectedItem>
+         <SelectedItem>mips_test (D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog/mips_test.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000160000000020000000000000000000000000200000064ffffffff000000810000000300000002000001600000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>mips_test_3 (D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/mips_test_3.v)</CurrentItem>
+      <CurrentItem>mips_test (D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog/mips_test.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -117,7 +137,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016f0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Design Utilities</CurrentItem>
    </ItemView>
@@ -126,13 +146,13 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016f0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013e0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>

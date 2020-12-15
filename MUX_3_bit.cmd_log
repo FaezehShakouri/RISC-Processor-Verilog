@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj RISC_Processor -o "D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog/MUX_3_bit.tfi" -lib work "D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog//MUX_3_bit.v" -module MUX_3_bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
