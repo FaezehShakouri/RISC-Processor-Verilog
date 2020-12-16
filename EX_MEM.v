@@ -46,6 +46,7 @@ module EX_MEM(
 	
 	initial begin
 		Branch_out = 0;
+		MemToReg_out = 0;
 	end
 	
 	always @ (negedge clk)

@@ -28,30 +28,33 @@ module Instruction_Memory(
 	input clk;
 	input [15:0] addr;
 	
-	output reg[0:63] dataLine;
+	output reg [0:63] dataLine;
 	
 	// Instruction Memory. 512 instructions in mem;
-	reg [7:0] memory[0:1023];
+	reg [7:0] memory [0:1023];
 	
 	// Counter for cycles;
 	reg [2:0] counter;
 	reg reset;
 	
-	
+	integer i;
 	initial begin
 		counter = 0;
 		reset = 0;
-		dataLine = 64'bx;
-		
-		$readmemh("instruction_mem.txt", memory);
+		dataLine = 64'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+		/*for (i = 0; i < 64; i = i + 1) 
+			dataLine[i] = 1'bx;
+			*/
+		$readmemb("instruction.txt", memory);
 		
 	end
 	
 	always @(addr[15:3])
 	begin
-		if (counter != 0)	
+		if (counter != 0)	begin
 			reset = 1;
-			dataLine = 64'bx;
+			dataLine = 64'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+		end
 	end
 	
 	always @(posedge clk)

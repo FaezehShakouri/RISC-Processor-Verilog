@@ -32,7 +32,8 @@ module MEM_WB(
 	output reg MemToReg_out,
 	output reg RegWrite_out
     );
-
+	
+	initial MemToReg_out = 0;
 	
 	always @ (negedge clk)
 	begin

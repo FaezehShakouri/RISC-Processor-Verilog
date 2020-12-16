@@ -51,7 +51,7 @@ module Execute(
 	 
 	 
 	ALU_Control alu_control (
-    .func(sign_extended_immediate[15:12]), 
+    .func(sign_extended_immediate[3:0]), 
     .ALUOp(ALUOp_in), 
     .ALUOp_out(ALU_Op_out)
     ); 

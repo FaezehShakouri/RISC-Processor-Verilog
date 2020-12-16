@@ -27,7 +27,7 @@ module Adder_2(
 	input [15:0] addr_inp_1, addr_inp_2;
 	output reg [15:0] addr_out;
 	
-	always @ (addr_inp_1 || addr_inp_2)
+	always @ (addr_inp_2)
 	begin
 		addr_out <= addr_inp_1 + addr_inp_2;
 	end

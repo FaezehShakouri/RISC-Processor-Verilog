@@ -23,7 +23,7 @@ module Write_Back(
 	input [15:0] alu_result,
 	input MemToReg,
 	
-	output reg [15:0] mux_wb
+	output [15:0] mux_wb
     );
 	 
 	 

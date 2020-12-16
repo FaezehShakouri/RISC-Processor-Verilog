@@ -5,10 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog/Memory.v" Line 48: Target &lt;<arg fmt="%s" index="1">read_data_mem</arg>&gt; of concurrent assignment or output port connection should be a net type.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog/Write_Back.v" Line 34: Target &lt;<arg fmt="%s" index="1">mux_wb</arg>&gt; of concurrent assignment or output port connection should be a net type.
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Memory.v" Line 48: Target &lt;<arg fmt="%s" index="1">read_data_mem</arg>&gt; of concurrent assignment or output port connection should be a net type.
 </msg>
 
 </messages>

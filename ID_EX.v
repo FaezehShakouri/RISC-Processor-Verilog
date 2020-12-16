@@ -55,7 +55,10 @@ module ID_EX(
     );
 	
 	
-	initial Branch_out = 0;
+	initial begin 
+		Branch_out = 0;
+		MemToReg_out = 0;
+	end
 	
 	
 	//Read

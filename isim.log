@@ -1,22 +1,2 @@
 ISim log file
-Running: D:\Uni\Term 7\Architecture Lab\CPU\RISC-Processor-Verilog\mips_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog/mips_test_isim_beh.wdb 
-ISim P.20131013 (signature 0x7708f090)
-This is a Full version of ISim.
-WARNING: File "D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog/Decode.v" Line 26.  For instance decode_stage/register_file/, width 16 of formal port write_data is not equal to width 17 of actual signal write_data.
-WARNING: File "D:/Uni/Term 7/Architecture Lab/CPU/RISC-Processor-Verilog/MIPS.v" Line 100.  For instance uut/decode_stage/, width 17 of formal port write_data is not equal to width 16 of actual signal WRITE_BACK_mux_wb.
-Time resolution is 1 ps
-# onerror resume
-# wave add /
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-ISim P.20131013 (signature 0x7708f090)
-This is a Full version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-ISim P.20131013 (signature 0x7708f090)
-This is a Full version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
+Running: D:\Uni\Term 7\Architecture Lab\CPU\RISC_Processor\mips_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/mips_test_isim_beh.wdb 
