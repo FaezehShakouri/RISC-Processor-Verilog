@@ -27,7 +27,7 @@ module Memory(
 	input Branch,
 	input Zero,
 	
-	output reg [15:0] read_data_mem,
+	output [15:0] read_data_mem,
 	output PCSrc_out
     );
 	

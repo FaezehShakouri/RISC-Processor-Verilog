@@ -30,7 +30,6 @@ Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/MIPS.v
 Analyzing Verilog file "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/mips_test.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:329 - "D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/Memory.v" Line 48: Target <read_data_mem> of concurrent assignment or output port connection should be a net type.
 Completed static elaboration
 Compiling module Mux_2_1
 Compiling module PC
@@ -59,8 +58,7 @@ Compiling module MIPS
 Compiling module mips_test
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 6 sub-compilation(s) to finish...
 Compiled 26 Verilog Units
 Built simulation executable D:/Uni/Term 7/Architecture Lab/CPU/RISC_Processor/mips_test_isim_beh.exe
-Fuse Memory Usage: 28988 KB
-Fuse CPU Usage: 484 ms
+Fuse Memory Usage: 28908 KB
+Fuse CPU Usage: 421 ms

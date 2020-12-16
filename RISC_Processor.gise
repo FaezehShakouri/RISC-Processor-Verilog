@@ -28,6 +28,9 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Instruction_Memory.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Instruction_Memory.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Instruction_Memory.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Memory.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Memory.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Memory.xst"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Mux_2_1.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
